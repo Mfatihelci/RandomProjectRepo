@@ -3,17 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>API_KEY</key>
-	<string>AIzaSyBr8uup_KZEge-de8P5viCWCzPwtNb_7p0</string>
+	<string>AIzaSyCZKA2UOYlDTpg0U-3K7rIiWFvKKLNlSZI</string>
 	<key>GCM_SENDER_ID</key>
-	<string>597479785599</string>
+	<string>434474144436</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>fatih.FirebaseInstaClone</string>
 	<key>PROJECT_ID</key>
-	<string>instaclonefirebase-84834</string>
+	<string>asdasd-a6d17</string>
 	<key>STORAGE_BUCKET</key>
-	<string>instaclonefirebase-84834.appspot.com</string>
+	<string>asdasd-a6d17.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -25,6 +25,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:597479785599:ios:7c8f89dd07a25b1d1cab4a</string>
+	<string>1:434474144436:ios:29cd99a9652fdc030e7de1</string>
 </dict>
 </plist>

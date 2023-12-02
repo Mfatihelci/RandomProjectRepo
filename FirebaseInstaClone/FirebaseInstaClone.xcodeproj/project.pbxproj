@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF02A1472B1B3227004FA9EC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF02A1462B1B3227004FA9EC /* GoogleService-Info.plist */; };
 		EF24E7AD2B175BCA0096E74D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF24E7AC2B175BCA0096E74D /* AppDelegate.swift */; };
 		EF24E7AF2B175BCA0096E74D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF24E7AE2B175BCA0096E74D /* SceneDelegate.swift */; };
 		EF24E7B12B175BCA0096E74D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF24E7B02B175BCA0096E74D /* ViewController.swift */; };
 		EF24E7B42B175BCA0096E74D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF24E7B22B175BCA0096E74D /* Main.storyboard */; };
 		EF24E7B62B175BCB0096E74D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF24E7B52B175BCB0096E74D /* Assets.xcassets */; };
 		EF24E7B92B175BCB0096E74D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF24E7B72B175BCB0096E74D /* LaunchScreen.storyboard */; };
-		EF24E7C12B175E4D0096E74D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF24E7C02B175E4D0096E74D /* GoogleService-Info.plist */; };
 		EF24E7C42B1763880096E74D /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = EF24E7C32B1763880096E74D /* FirebaseAnalytics */; };
 		EF24E7D02B1763880096E74D /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = EF24E7CF2B1763880096E74D /* FirebaseAuth */; };
 		EF24E7D22B1763880096E74D /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = EF24E7D12B1763880096E74D /* FirebaseFirestore */; };
@@ -24,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EF02A1462B1B3227004FA9EC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EF24E7A92B175BCA0096E74D /* FirebaseInstaClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseInstaClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF24E7AC2B175BCA0096E74D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF24E7AE2B175BCA0096E74D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -32,7 +33,6 @@
 		EF24E7B52B175BCB0096E74D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF24E7B82B175BCB0096E74D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF24E7BA2B175BCB0096E74D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EF24E7C02B175E4D0096E74D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EF24E7D52B1767FE0096E74D /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		EF24E7D72B17680E0096E74D /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
 		EF24E7D92B17681C0096E74D /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
@@ -82,7 +82,7 @@
 				EF24E7B52B175BCB0096E74D /* Assets.xcassets */,
 				EF24E7B72B175BCB0096E74D /* LaunchScreen.storyboard */,
 				EF24E7BA2B175BCB0096E74D /* Info.plist */,
-				EF24E7C02B175E4D0096E74D /* GoogleService-Info.plist */,
+				EF02A1462B1B3227004FA9EC /* GoogleService-Info.plist */,
 			);
 			path = FirebaseInstaClone;
 			sourceTree = "<group>";
@@ -155,7 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF24E7B92B175BCB0096E74D /* LaunchScreen.storyboard in Resources */,
-				EF24E7C12B175E4D0096E74D /* GoogleService-Info.plist in Resources */,
+				EF02A1472B1B3227004FA9EC /* GoogleService-Info.plist in Resources */,
 				EF24E7B62B175BCB0096E74D /* Assets.xcassets in Resources */,
 				EF24E7B42B175BCA0096E74D /* Main.storyboard in Resources */,
 			);
